@@ -40,7 +40,7 @@ Statistics documentStatisticsFor(istream& input) {
     double total = val;
     int numValues = 1;
 
-    for (;input >>val;) {
+    for (;input >> val;) {
         total += val;
         numValues++;
 
